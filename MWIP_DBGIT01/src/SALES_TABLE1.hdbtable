@@ -14,7 +14,7 @@ COLUMN TABLE "SALES_TABLE1" (
      "KUNNR"  NVARCHAR(10) COMMENT 'Customer Number',
      "LIFNR"  NVARCHAR(10) COMMENT 'Vendor Numb er',
      "DEV1"  NVARCHAR(10) COMMENT 'Dev 1',
-  
+     "DEV11"  NVARCHAR(10) COMMENT 'Dev 11',
 	 PRIMARY KEY ("MANDT", "VBELN", "POSNR"))
 	 COMMENT 'Sales Item Table'
 	 
