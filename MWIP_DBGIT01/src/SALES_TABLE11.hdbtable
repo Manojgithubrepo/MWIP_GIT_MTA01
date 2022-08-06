@@ -1,0 +1,21 @@
+COLUMN TABLE "SALES_TABLE11" (
+	 "MANDT"  NVARCHAR(3)  COMMENT 'Client',
+	 "VBELN"  NVARCHAR(10) COMMENT 'Sales Order Number',
+	 "POSNR"  NVARCHAR(6)  COMMENT 'Sales Item',
+	 "MATNR"  NVARCHAR(40) COMMENT 'Material No.',
+     
+     "MEINS"  NVARCHAR(3)  COMMENT 'UOM',
+     "SMENG"  DECIMAL(13,3) COMMENT 'Sales Quantity',
+    
+     "DEV2"  NVARCHAR(10) COMMENT 'Dev 2',
+     "DEV22"  NVARCHAR(10) COMMENT 'Dev 22',
+     "NETPR" DECIMAL(15,2) COMMENT 'Sales Item Amount',
+     "WAERK" NVARCHAR(5) COMMENT 'Currency',
+     "KUNNR"  NVARCHAR(10) COMMENT 'Customer Number',
+     "LIFNR"  NVARCHAR(10) COMMENT 'Vendor Numb er',
+     "DEV1"  NVARCHAR(10) COMMENT 'Dev 1',
+     "DEV111"  NVARCHAR(10) COMMENT 'Dev 111',
+	 PRIMARY KEY ("MANDT", "VBELN", "POSNR"))
+	 COMMENT 'Sales Item Table'
+	 
+	 UNLOAD PRIORITY 5 AUTO MERGE
