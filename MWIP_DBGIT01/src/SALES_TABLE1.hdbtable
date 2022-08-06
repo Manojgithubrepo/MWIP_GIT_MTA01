@@ -8,6 +8,7 @@ COLUMN TABLE "SALES_TABLE1" (
      "SMENG"  DECIMAL(13,3) COMMENT 'Sales Quantity',
     
      "DEV2"  NVARCHAR(10) COMMENT 'Dev 2',
+     "DEV22"  NVARCHAR(10) COMMENT 'Dev 22',
      "NETPR" DECIMAL(15,2) COMMENT 'Sales Item Amount',
      "WAERK" NVARCHAR(5) COMMENT 'Currency',
      "KUNNR"  NVARCHAR(10) COMMENT 'Customer Number',
